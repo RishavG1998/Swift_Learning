@@ -14,9 +14,6 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                ZStack {
-                    
-                }
                 VStack {
                     if let response = viewModel.response {
                         Text(response)
